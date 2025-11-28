@@ -4,9 +4,6 @@ package Domain;
  * @author Paula Alejandra Díaz (PAD)
  * @author Juan Pablo Vélez (JPV)
  */
-public interface Breaker {
+public class BFOn implements BFState {
 
-    Public void break() {
-
-    }
 }

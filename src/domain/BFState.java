@@ -4,11 +4,8 @@ package Domain;
  * @author Paula Alejandra Díaz (PAD)
  * @author Juan Pablo Vélez (JPV)
  */
-public class Fruit extends Placeable {
+public interface BFState {
+    public void getState(){
 
-    private int score;
-
-    protected void pick(){
     }
-
 }

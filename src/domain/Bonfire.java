@@ -4,11 +4,8 @@ package Domain;
  * @author Paula Alejandra Díaz (PAD)
  * @author Juan Pablo Vélez (JPV)
  */
-public class Fruit extends Placeable {
+public class Bonfire extends Block {
+    public void changeState(BFState newState) {
 
-    private int score;
-
-    protected void pick(){
     }
-
 }
